@@ -1,0 +1,38 @@
+body{
+    padding:50px;
+    background-color: black;
+}
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    background-color: white;
+    box-shadow: 4px 4px 12px #18edfc, -4px -4px 12px #02646b;
+}
+.form-group{
+    margin-bottom:20px;
+}
+navbar .logo-wrapper {
+    height: 29px;
+    overflow: hidden;
+
+}
+
+.logo-wrapper a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.logo-wrapper a strong {
+    font-family: 'Jost', sans-serif;
+
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: -5px;
+
+}

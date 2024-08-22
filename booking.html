@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magic Freeze</title>
+  <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <div class="background">
+        <div class="booking-form">
+            <h2> Booking Form</h2>
+            <form action="book.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required><br>
+ 
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required><br>
+           
+                <label for="number">Number:</label>
+                <input type="text" name="num" id="num" required><br>
+           
+                <label for="date"> Date:</label>
+                <input type="date" name="b_date" id="b-date" required><br>
+
+                <label for="service"> Services Name:</label>
+                <select name="services_name" id="services_name" required>
+                    <option value=""><---Select one---></option>
+                    <option value="wedding">Wedding Photography</option>
+                    <option value="event">Event Photography</option>
+                    <option value="outdoor">Outdoor Photography</option>
+                    <option value="model">Model Photography</option>
+                </select><br>
+               
+             
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
